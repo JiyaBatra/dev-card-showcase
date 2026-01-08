@@ -840,82 +840,50 @@ body.light-mode .nav-logo {
   transition: transform 0.1s, left 0.1s, top 0.1s;
 }
 
-/* =========================
-   FORM CONTAINER
-   ========================= */
-.testimonial-form {
-  max-width: 450px;
-  margin: 0 auto;
-  background: #ffffff;
-  padding: 2rem;
-  border-radius: 14px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.25);
-
-  display: flex;
-  flex-direction: column;
-  gap: 16px; /* spacing between elements */
-}
-
-/* =========================
-   NAME INPUT
-   ========================= */
-.testimonial-form input {
+/* SAME SIZE FOR INPUT & BUTTON */
+.testimonial-form input,
+.testimonial-form button {
   width: 100%;
-  height: 46px;           /* small, same as button */
+  height: 46px;
   padding: 0 14px;
   font-size: 16px;
   border-radius: 8px;
-  border: 1px solid #ccc;
   box-sizing: border-box;
 }
 
-/* =========================
-   FEEDBACK TEXTAREA
-   ========================= */
+/* FEEDBACK TEXTAREA (slightly taller) */
 .testimonial-form textarea {
   width: 100%;
-  min-height: 100px;       /* slightly taller for typing */
+  height: 90px;           /* fixed comfortable height */
   padding: 10px 14px;
   font-size: 16px;
   border-radius: 8px;
-  border: 1px solid #ccc;
   box-sizing: border-box;
   line-height: 1.5;
   resize: vertical;
   display: block;
+  border: 1px solid #ccc;
 }
 
-/* =========================
-   BUTTON
-   ========================= */
+/* BUTTON STYLE */
 .testimonial-form button {
-  width: 100%;
-  height: 46px;            /* same as input */
-  padding: 0 14px;
-  font-size: 16px;
-  border-radius: 8px;
   border: none;
   background: #2c5364;
   color: white;
   cursor: pointer;
-  transition: 0.3s ease;
 }
 
 .testimonial-form button:hover {
   background: #203a43;
 }
 
-/* =========================
-   FOCUS EFFECT
-   ========================= */
+/* FOCUS EFFECT */
 .testimonial-form input:focus,
 .testimonial-form textarea:focus {
   outline: none;
   border-color: #2c5364;
   box-shadow: 0 0 0 2px rgba(44,83,100,0.2);
 }
-
-
 
 .social-links a[aria-label="Instagram"]:hover { color: #e1306c; }
 .social-links a[aria-label="Facebook"]:hover { color: #1877f2; }
