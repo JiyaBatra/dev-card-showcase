@@ -1536,7 +1536,25 @@
     "name": "Sneha Amballa",
     "github": "https://github.com/your-github-username"
   }
+},
+{
+  "title": "Interactive Drawing Canvas ✏️",
+  "description": "A hands-on learning canvas for drawing shapes or numbers with instant feedback.",
+  "tags": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Canvas",
+    "Education",
+    "Interactive Learning"
+  ],
+  "links": {
+    "live": "./projects/interactive-drawing-canvas/index.html"
+  },
+  "author": {
+    "name": "Sneha Amballa",
+    "github": "https://github.com/your-github-username"
+  }
 }
-
 
 ]

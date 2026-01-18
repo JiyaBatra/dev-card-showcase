@@ -32,8 +32,7 @@ body {
     text-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-.header p {
-    font-size: 1.2rem;
+.header p {    font-size: 1.2rem;
     color: #555;
     max-width: 800px;
     margin: 0 auto 20px;
