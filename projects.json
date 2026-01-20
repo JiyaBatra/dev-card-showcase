@@ -3658,7 +3658,21 @@
     "github": "https://github.com/your-github-username"
   }
 },
-
+{"title":  "Micro Journal",
+        "description":  "A one line journal which helps users to reflect on their day in a concise manner.",
+        "tags":  [
+                     "HTML",
+                     "CSS",
+                     "JavaScript"
+                 ],
+        "links":  {
+                      "live":  "./projects/micro-journal/index.html"
+                  },
+        "author":  {
+                       "name":  "CodeMaster",
+                       "github":  "https://github.com/CodeMaster"
+                   }
+},
 {
     "title":"Interactive Learning",
      "description": "An interactive simulator that demonstrates the consequences of various decisions in real-life scenarios, helping users understand cause and effect relationships.",
@@ -3971,7 +3985,6 @@
     ],
     "links": {
         "live": "https://your-username.github.io/dev-card-showcase/games/brick-breaker/"
-        "live": "https://your-username.github.io/dev-card-showcase/games/snake/"
     },
     "author": {
         "name": "Amballa Sneha",
