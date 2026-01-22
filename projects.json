@@ -51,6 +51,23 @@
         }
     },
      {
+        "title": "lyric searcher",
+        "description": "A Classic Lyric Searcher.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Utility Tool"
+        ],
+        "links": {
+            "live": "./projects/lyric-search/index.html"
+        },
+        "author": {
+            "name": "Omkar",
+            "github": "https://github.com/omkarhole"
+        }
+    },
+     {
         "title": "Interactive Periodic Table",
         "description": "An interactive periodic table that provides detailed information about each element, including atomic number, symbol, atomic mass, and electron configuration. Features search functionality and responsive design for easy access on all devices.",
         "tags": [
