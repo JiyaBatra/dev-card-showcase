@@ -4481,6 +4481,20 @@
     }
 },
 {
+    "title": "microfps",
+    "description": "A micro-fps game built with HTML, CSS, and JavaScript. Features a simple shooting mechanic, enemy AI, and a scoring system.",
+    "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Game"
+    ],
+    "links": {
+        "live": "./projects/microfps/index.html"
+    },
+    "author": {
+        "name": "PavanKarthik",
+        "github": "https://github.com/pavanakarthik12"
     "title": "guitarjs",
     "description": "A JavaScript library for creating guitar tablatures. It provides a simple and intuitive way to define and work with guitar tablatures in your JavaScript applications.",
     "tags": [
