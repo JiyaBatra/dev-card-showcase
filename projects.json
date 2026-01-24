@@ -98,6 +98,22 @@
             "github": "https://github.com/omkarhole"
         }
     },
+     {
+        "title": "Virtual Keyboard",
+        "description": "An interactive virtual keyboard that allows users to type using on-screen keys, complete with visual feedback and support for multiple keyboard layouts.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "links": {
+            "live": "./projects/virtual-keyboard/index.html"
+        },
+        "author": {
+            "name": "Omkar",
+            "github": "https://github.com/omkarhole"
+        }
+    },
     {
         "title": "Memory Game",
         "description": "A classic memory card matching game with multiple themes and difficulty levels.",
