@@ -68,6 +68,22 @@
         }
     },
     {
+        "title": "Guess the Word Game",
+        "description": "An engaging word guessing game where players attempt to identify a hidden word by guessing letters within a limited number of attempts. Features multiple categories, hints, and score tracking.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "links": {
+            "live": "./projects/Guess-The-Word/index.html"
+        },
+        "author": {
+            "name": "Omkar",
+            "github": "https://github.com/omkarhole"
+        }
+    },
+    {
         "title": "Advanced Text Case Converter",
         "description": "A powerful text utility that converts text into multiple cases including uppercase, lowercase, sentence case, title case, and toggle case with live preview, undo history, and keyboard shortcuts.",
         "tags": [
