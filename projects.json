@@ -5457,6 +5457,20 @@
     ],
     "links": {
         "live": "./projects/javalitejs/index.html"
+    "title": "Livetypingaura",
+    "description": "A live typing game where users must type a sentence as fast and accurately as possible. Features timer, scoring system, and typing accuracy calculation.",
+    "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Game"
+    ],
+    "links": {
+        "live": "./projects/Livetypingaura/index.html"
+    },
+    "author": {
+        "name": "Sneha Amballa",
+        "github": "https://github.com/Sneha-Amballa"
     "title": "Djjs",
     "description": "A JavaScript library for creating DJ-style visualizations. It provides a simple and intuitive way to define and work with DJ-style visualizations in your JavaScript applications.",
     "tags": [
