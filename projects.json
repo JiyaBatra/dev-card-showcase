@@ -670,6 +670,23 @@
             "github": "https://github.com/neeru24"
         }
     },
+         {
+        "title": "Cosmic Drift — Ultra Edition",
+        "description": "A visually rich space-drift game featuring smooth inertia-based movement, glowing particle trails, energy collection mechanics, and a luxurious glassmorphism-inspired interface for an engaging and easy-to-play experience.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "links": {
+            "live": "./projects/cosmic-drift/index.html"
+        },
+        "author": {
+            "name": "Priyanshu",
+            "github": "https://github.com/PriyanshuSingh00-hub"
+        }
+        },
+
     {
         "title": "Untangle Puzzle Game",
         "description": "An engaging untangle puzzle game where players must rearrange interconnected nodes to eliminate overlapping lines. Features multiple difficulty levels, timer, and move counter for an immersive experience.",
