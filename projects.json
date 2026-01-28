@@ -1545,7 +1545,7 @@
             "github": "https://github.com/omkarhole"
         }
     },
-    {
+     {
         "title": "Typing Duel Game",
         "description": "A competitive typing game where players race against an AI opponent to type words accurately and quickly. Features multiple difficulty levels and real-time score tracking.",
         "tags": [
@@ -1555,6 +1555,22 @@
         ],
         "links": {
             "live": "./projects/Typing duel game/index.html"
+        },
+        "author": {
+            "name": "Omkar",
+            "github": "https://github.com/omkarhole"
+        }
+    },
+    {
+        "title": "Image Compressor",
+        "description": "A tool that compresses images to reduce file size while maintaining quality. Features adjustable compression levels and preview of original and compressed images.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "links": {
+            "live": "./projects/image-compressor/index.html"
         },
         "author": {
             "name": "Omkar",
