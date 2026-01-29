@@ -6875,6 +6875,26 @@
       "name": "Gupta-02",
       "github": "https://github.com/Gupta-02"
     }
+  },
+  {
+    "title": "Snowfall Screen Effect",
+    "description": "Animated snowflakes fall gently across the screen, enhancing visual appeal during winter or festive themes. Lightweight and non-intrusive animation using CSS keyframes and JS randomness.",
+    "tags": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Animation",
+      "Winter",
+      "Festive",
+      "Visual Effect"
+    ],
+    "links": {
+      "live": "./projects/Snowfall-Screen-Effect/"
+    },
+    "author": {
+      "name": "Gupta",
+      "github": "https://github.com/Gupta-02"
+    }
   }
 ]
 
