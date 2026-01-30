@@ -7037,6 +7037,29 @@
       "name": "Gupta",
       "github": "https://github.com/Gupta-02"
     }
+  },
+  {
+    "title": "Nutrition Log",
+    "description": "Track your meals and maintain balanced nutrition with this interactive meal logging interface. Log food items, calculate macronutrients (protein, carbs, fat), view daily summaries with visual charts, and monitor your nutritional intake for better diet planning and fitness goals.",
+    "tags": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Nutrition",
+      "Health",
+      "Fitness",
+      "Charts",
+      "Local Storage",
+      "Meal Tracking",
+      "Macros"
+    ],
+    "links": {
+      "live": "./projects/nutrition-log/"
+    },
+    "author": {
+      "name": "Gupta",
+      "github": "https://github.com/Gupta-02"
+    }
   }
 ]
 
