@@ -205,6 +205,25 @@
             "github": "https://github.com/your-github-username"
         }
     },
+    {
+        "title": "Keyword Extractor",
+        "description": "A playful and interactive Keyword Extractor mini app with a unique side-by-side layout. Paste your text on the left and see extracted keywords on the right, displayed with fun colors and dynamic styling. Includes word frequency sorting, responsive design, and interactive buttons for extraction and reset.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "UI/UX",
+            "Fun",
+            "Utility"
+        ],
+        "links": {
+            "live": "./projects/keyword-extractor/"
+        },
+        "author": {
+            "name": "Anvesha",
+            "github": "https://github.com/your-github-username"
+        }
+        },
       {
         "title": "Attention Span self tester",
         "description": "A web application that tests and improves users' attention span through interactive exercises and games designed to enhance focus and concentration.",
