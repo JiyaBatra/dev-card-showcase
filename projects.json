@@ -3605,6 +3605,22 @@
         }
     },
     {
+        "title": "Smart campus dashboard",
+        "description": "A web application that provides a dashboard for managing and monitoring various aspects of a smart campus, including attendance, events, and notifications.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "links": {
+            "live": "./projects/smart-campus-dashboard/index.html"
+        },
+        "author": {
+            "name": "CodeMaster",
+            "github": "https://github.com/CodeMaster"
+        }
+    },
+    {
         "title": "infinite scroll image gallery",
         "description": "A web application that displays an infinite scroll image gallery using Unsplash API to fetch high-quality images as the user scrolls down the page.",
         "tags": [
@@ -7209,3 +7225,4 @@
       "name": "Gupta",
       "github": "https://github.com/Gupta-02"
     }
+  }]
