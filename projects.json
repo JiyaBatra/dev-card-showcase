@@ -18,6 +18,24 @@
         }
     },
     {
+    "title": "DiffCraft – Text Diff Checker",
+    "description": "A modern text difference checker that compares two texts in real time and highlights added, removed, and modified lines. Includes similarity percentage, ignore case and whitespace options, dark mode, and a clean editor-style UI for an efficient comparison experience.",
+    "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Developer Utility",
+        "Text Comparison"
+    ],
+    "links": {
+        "live": "./projects/text-difference-check/"
+    },
+    "author": {
+        "name": "Anvesha",
+        "github": "https://github.com/your-github-username"
+    }
+},
+    {
         "title": "Keyboard Drum Kit",
         "description": "An interactive drum machine where keyboard keys trigger realistic drum sounds using the Web Audio API. Press Q, W, E, R, A, S, D, F keys to play different drum samples including kick, snare, hi-hat, tom, clap, cymbal, percussion, and bass. Features smooth animations, visual feedback, and encourages playful exploration of keyboard input.",
         "tags": [
