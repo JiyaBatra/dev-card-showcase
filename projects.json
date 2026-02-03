@@ -3526,6 +3526,22 @@
         }
     },
     {
+    "title": "Beat the Timer",
+    "description": "A reflex-based timing game where players stop a running timer as close as possible to a randomly generated target time. Includes multi-round gameplay, difficulty levels, accuracy-based scoring, keyboard controls, and persistent high scores.",
+    "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+    ],
+    "links": {
+        "live": "./projects/beat-the-timer/"
+    },
+    "author": {
+        "name": "Anvesha",
+        "github": "https://github.com/your-github-username"
+    }
+},
+    {
         "title": "Simple Interest Calculator",
         "description": "A straightforward calculator that computes simple interest based on user-inputted principal amount, rate of interest, and time period.",
         "tags": [
