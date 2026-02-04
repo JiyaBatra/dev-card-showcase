@@ -1484,6 +1484,25 @@
             "github": "https://github.com/neeru24"
         }
     },
+    {
+    "title": "Sleep Routine Builder",
+    "description": "A calm, dark-themed wellness application that helps users build healthy sleep habits by setting consistent sleep and wake times and creating personalized night routines. Features a minimal, sleep-friendly UI, local data persistence, and gentle behavioral insights—designed to feel like a real mindfulness and sleep companion app.",
+    "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Wellness",
+        "UI/UX",
+        "Productivity"
+    ],
+    "links": {
+        "live": "./projects/sleep-routine-builder/"
+    },
+    "author": {
+        "name": "Anvesha",
+        "github": "https://github.com/your-github-username"
+    }
+},
      {
         "title": "Roadmap",
         "description": "An interactive roadmap guiding users through the essential skills and technologies needed to become a proficient full stack developer. Features multiple tracks, checkpoints, and tooltips for detailed learning paths.",
