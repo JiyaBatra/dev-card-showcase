@@ -3586,6 +3586,22 @@
             "github": "https://github.com/neeru24"
         }
     },
+       {
+        "title": "Unmasked Game",
+        "description": "A thrilling web-based game where players navigate through levels while avoiding detection by patrolling guards. Features stealth mechanics, dynamic AI behavior, and immersive sound effects for an engaging gaming experience.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "links": {
+            "live": "./projects/unmasked/index.html"
+        },
+        "author": {
+            "name": "Omkar",
+            "github": "https://github.com/omkarhole"
+        }
+    },
     {
         "title": "VerboMemory",
         "description": "An interactive word memory game that challenges players to recall words after a brief display. Improve focus, memory, and vocabulary in a fun way.",
