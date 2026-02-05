@@ -1990,6 +1990,25 @@ filterButtons.forEach((btn) => {
     });
 });
 
+// Scroll to top function
+function scrollToTop() {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+}
+
+// Show button only when scrolled down
+window.addEventListener("scroll", function () {
+  const btn = document.getElementById("scrollToTop");
+  if (window.scrollY > 300) {
+    btn.style.display = "block";
+  } else {
+    btn.style.display = "none";
+  }
+});
+
+
 // --- Sort Event ---
 sortSelect.addEventListener("change", () => {
     const visibleCards = projectCards.filter(

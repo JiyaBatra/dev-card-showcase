@@ -3,3 +3,11 @@
   outline: 3px solid #0d6efd;
   outline-offset: 3px;
 }
+.scroll-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  display: none;
+  cursor: pointer;
+  z-index: 1000;
+}
