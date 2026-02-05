@@ -17,7 +17,7 @@
 
 </head>
 
-<body data-theme="dark">
+<body data-theme="ocean">
 
 
     <div class="circle-container">
@@ -86,7 +86,20 @@
             <li><a href="analytics.html">Analytics</a></li>
             <li><a href="roadmap.html">Roadmap</a></li>
         </ul>
-        <button id="themeToggle" class="theme-toggle">🌙</button>
+        <div class="theme-switcher" role="group" aria-label="Theme switcher">
+            <button class="theme-option" data-theme="ocean" aria-pressed="true">
+                <span class="swatch ocean"></span>
+                Ocean
+            </button>
+            <button class="theme-option" data-theme="neon" aria-pressed="false">
+                <span class="swatch neon"></span>
+                Neon
+            </button>
+            <button class="theme-option" data-theme="minimal" aria-pressed="false">
+                <span class="swatch minimal"></span>
+                Minimal
+            </button>
+        </div>
     </nav>
 
     <!-- NAVBAR END -->

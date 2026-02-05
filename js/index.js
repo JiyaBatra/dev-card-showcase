@@ -463,37 +463,30 @@ document.addEventListener("DOMContentLoaded", () => {
         });
 
 
-    // <!-- Theme Toggle Script -->
+    // <!-- Theme Switcher Script -->
 
         document.addEventListener('DOMContentLoaded', function() {
-            const themeToggle = document.getElementById('themeToggle');
             const body = document.body;
+            const themeButtons = document.querySelectorAll('.theme-option');
+            const themeKey = 'theme';
 
-            // Function to set theme
             function setTheme(theme) {
                 body.setAttribute('data-theme', theme);
-                if (theme === 'light') {
-                    body.classList.add('light-mode');
-                } else {
-                    body.classList.remove('light-mode');
-                }
-                localStorage.setItem('theme', theme);
-                themeToggle.textContent = theme === 'dark' ? '🌙' : '☀️';
+                body.classList.toggle('light-mode', theme === 'minimal');
+                localStorage.setItem(themeKey, theme);
+
+                themeButtons.forEach(btn => {
+                    const isActive = btn.dataset.theme === theme;
+                    btn.setAttribute('aria-pressed', String(isActive));
+                });
             }
 
-            // Function to toggle theme
-            function toggleTheme() {
-                const currentTheme = body.getAttribute('data-theme') || 'dark';
-                const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-                setTheme(newTheme);
-            }
-
-            // Load saved theme or default to dark
-            const savedTheme = localStorage.getItem('theme') || 'dark';
+            const savedTheme = localStorage.getItem(themeKey) || body.getAttribute('data-theme') || 'ocean';
             setTheme(savedTheme);
 
-            // Add event listener to theme toggle button
-            themeToggle.addEventListener('click', toggleTheme);
+            themeButtons.forEach(btn => {
+                btn.addEventListener('click', () => setTheme(btn.dataset.theme));
+            });
 
             // Update copyright year dynamically
             const copyrightElement = document.getElementById('copyright');
