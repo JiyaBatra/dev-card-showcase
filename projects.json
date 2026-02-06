@@ -19,6 +19,26 @@
         }
     },
     {
+    "title": "Puzzle Unlock Pro",
+    "description": "An interactive puzzle-based unlocking game featuring multiple logic and math challenges. Includes level progression, timer-based gameplay, scoring system, animated transitions, and a neon-themed modern UI designed for an engaging game experience.",
+    "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Game",
+        "UI/UX",
+        "Logic",
+        "Interactive"
+    ],
+    "links": {
+        "live": "./projects/puzzle-unlock/"
+    },
+    "author": {
+        "name": "Anvesha",
+        "github": "https://github.com/your-github-username"
+    }
+},
+    {
         "title": "Daily Fun Fact Challenge",
         "description": "A gamified daily fun fact application where users guess whether a fact is true or false across multiple difficulty levels. Features a point-based reward system, winner status progression, and a responsive, visually engaging interface for learning through play.",
         "tags": [
@@ -73,6 +93,27 @@
             "github": "https://github.com/Saisathvik94"
         }
     },
+    {
+    "title": "Pattern Master",
+    "description": "An advanced pattern prediction game featuring number, letter, and shape sequences. Includes dynamic difficulty, streak-based scoring, hints with penalties, level progression, timer challenges, and a sleek futuristic UI for an engaging cognitive training experience.",
+    "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Game",
+        "Patterns",
+        "Logic",
+        "UI/UX",
+        "Interactive"
+    ],
+    "links": {
+        "live": "./projects/pattern-prediction/"
+    },
+    "author": {
+        "name": "Anvesha",
+        "github": "https://github.com/your-github-username"
+    }
+},
     {
         "title": "Queue Management Simulator Game",
         "description": "A gamified queue management game where users add, serve, and remove people from a virtual queue. Features random events like VIP arrivals, unexpected departures, a points and level-up system, and a visually engaging neon-style interface with interactive animations for a fun arcade-like experience.",
@@ -3498,6 +3539,22 @@
             "github": "https://github.com/omkarhole"
         }
     },
+     {
+        "title": "3D gallery",
+        "description": "A visually stunning 3D gallery that allows users to explore and interact with a collection of images or artworks in a three-dimensional space. Features smooth navigation, zooming, and dynamic lighting effects for an immersive viewing experience.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "links": {
+            "live": "./projects/3d-gallery/index.html"
+        },
+        "author": {
+            "name": "Omkar",
+            "github": "https://github.com/omkarhole"
+        }
+    },
     {
         "title": "Basket Ball Game",
         "description": "A 3D basketball shooting game built with Three.js and Cannon.js where players can aim and shoot basketballs into a hoop, keeping track of their score and time.",
@@ -3588,6 +3645,22 @@
         ],
         "links": {
             "live": "./projects/simple-portfolio/"
+        },
+        "author": {
+            "name": "Omkar",
+            "github": "https://github.com/omkarhole"
+        }
+    },
+     {
+        "title": "WebKit",
+        "description": "A simple web browser interface prototype with basic navigation features.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "links": {
+            "live": "./projects/webkit/index.html"
         },
         "author": {
             "name": "Omkar",
@@ -3690,6 +3763,22 @@
             "github": "https://github.com/neeru24"
         }
     },
+       {
+        "title": "Neuromorphic UI",
+        "description": "A sleek and modern user interface design featuring neuromorphic elements with soft shadows and highlights. Perfect for portfolios, dashboards, or any web application requiring a clean aesthetic.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "links": {
+            "live": "./projects/Neuromorphic-UI/index.html"
+        },
+        "author": {
+            "name": "Omkar",
+            "github": "https://github.com/omkarhole"
+        }
+    },
     {
         "title": "Tab Organizer",
         "description": "Save and organize your URLs into Categories",
@@ -3774,6 +3863,22 @@
             "github": "https://github.com/your-github-username"
         }
     },
+        {
+        "title": "3D QR Generator",
+        "description": "A web application that generates a 3D QR code based on user input. The QR code can be customized with different colors and styles, and users can interact with it in a 3D space.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "links": {
+            "live": "./projects/3D/index.html"
+        },
+        "author": {
+            "name": "Omkar",
+            "github": "https://github.com/omkarhole"
+        }
+    },
     {
         "title": "Focus Timer",
         "description": "A productivity-focused timer that allows users to set custom focus and break durations, control the timer with start, pause, and reset actions, and track completed focus sessions to build consistent work habits.",
@@ -3800,6 +3905,22 @@
         ],
         "links": {
             "live": "./projects/Sorting-Visualizer/index.html"
+        },
+        "author": {
+            "name": "Omkar",
+            "github": "https://github.com/omkarhole"
+        }
+    },
+      {
+        "title": "CSS color ",
+        "description": "A web app that visually demonstrates various CSS colors with interactive sliders to adjust hue, saturation, and brightness for educational purposes.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "links": {
+            "live": "./projects/CSS-color/index.html"
         },
         "author": {
             "name": "Omkar",
