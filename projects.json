@@ -130,6 +130,25 @@
         "github": "https://github.com/your-github-username"
     }
 },
+{
+    "title": "Inventory Tetris Game",
+    "description": "An interactive grid-based puzzle game inspired by inventory management systems. Players drag, rotate, and place differently shaped blocks onto a dark-themed grid, clear lines for points, and manage space strategically. Features a polished cyber-style interface, smooth drag-and-drop mechanics, rotation controls, and real-time scoring.",
+    "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Game",
+        "UI/UX",
+        "Drag-and-Drop"
+    ],
+    "links": {
+        "live": "./projects/inventory-game/"
+    },
+    "author": {
+        "name": "Anvesha",
+        "github": "https://github.com/your-github-username"
+    }
+},
     {
         "title": "Queue Management Simulator Game",
         "description": "A gamified queue management game where users add, serve, and remove people from a virtual queue. Features random events like VIP arrivals, unexpected departures, a points and level-up system, and a visually engaging neon-style interface with interactive animations for a fun arcade-like experience.",
