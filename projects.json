@@ -1267,6 +1267,22 @@
             "github": "https://github.com/your-github-username"
         }
     },
+      {
+        "title": "Time Travelling Gallery",
+        "description": "A web application that allows users to explore different historical periods through an interactive gallery. Users can navigate through various time periods and view artifacts, images, and information from each era.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "links": {
+            "live": "./projects/Time-Travelling/index.html"
+        },
+        "author": {
+            "name": "Omkar",
+            "github": "https://github.com/omkarhole"
+        }
+    },
     {
         "title": "Keyword Extractor",
         "description": "A playful and interactive Keyword Extractor mini app with a unique side-by-side layout. Paste your text on the left and see extracted keywords on the right, displayed with fun colors and dynamic styling. Includes word frequency sorting, responsive design, and interactive buttons for extraction and reset.",
