@@ -1126,6 +1126,22 @@
             "github": "https://github.com/omkarhole"
         }
     },
+      {
+        "title": "Painting app",
+        "description": "A web-based painting application that allows users to create digital artwork using various brushes, colors, and tools. Features include a canvas area, color palette, brush size adjustment, and the ability to save and load paintings.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "links": {
+            "live": "./projects/paint-project/index.html"
+        },
+        "author": {
+            "name": "Omkar",
+            "github": "https://github.com/omkarhole"
+        }
+    },
     {
         "title": "Lucky Color of the Day",
         "description": "A playful and interactive mini app that reveals a user’s lucky color for the day. Features a fun, bubbly UI, daily color logic, luck points, and progression levels to create a delightful and engaging experience.",
