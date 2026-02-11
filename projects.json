@@ -39,6 +39,26 @@
     }
 },
 {
+    "title": "Concept Relationship Mapper",
+    "description": "An interactive visual tool for mapping relationships between ideas. Users can create concepts as nodes and connect them to form a dynamic graph, helping with mind mapping, knowledge organization, and system design planning. Features a modern dark interface with real-time SVG connections and intuitive node selection.",
+    "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Visualization",
+        "UI/UX",
+        "Productivity",
+        "Graph"
+    ],
+    "links": {
+        "live": "./projects/concept-relationship-mapper/"
+    },
+    "author": {
+        "name": "Anvesha",
+        "github": "https://github.com/your-github-username"
+    }
+},
+{
     "title": "Password Rotation Reminder Tool",
     "description": "A cyber-themed security dashboard that helps users track password rotation schedules across multiple accounts. Features interval-based reminders, real-time status indicators, and persistent storage for managing security compliance in a sleek, neon-styled interface.",
     "tags": [
