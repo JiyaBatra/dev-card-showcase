@@ -575,6 +575,23 @@
             "github": "https://github.com/omkarhole"
         }
     },
+     {
+        "title": "planet cards animation",
+        "description": "An animated card layout showcasing different planets with interactive features. Users can view detailed information about each planet, including size, type, and description. Features smooth animations and transitions for an engaging user experience.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Animation"
+        ],
+        "links": {
+            "live": "./projects/Planet-cards/index.html"
+        },
+        "author": {
+            "name": "Omkar",
+            "github": "https://github.com/omkarhole"
+        }
+    },
     {
         "title": "Traffic Signal Optimization Simulator",
         "description": "An animated, real-time traffic signal simulation that demonstrates adaptive signal control based on traffic density. Features moving vehicle animations, dynamic green-light allocation, congestion-aware timing optimization, and a modern dark-themed dashboard—illustrating smart city concepts through an interactive and visually engaging system.",
