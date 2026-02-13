@@ -10120,5 +10120,27 @@
             "name": "Gupta",
             "github": "https://github.com/Gupta-02"
         }
+    },
+    {
+        "title": "Muscle Group Recovery Tracker",
+        "description": "Track recovery times for individual muscle groups to prevent overtraining and optimize workout scheduling. Log workouts by muscle group with intensity levels, view recovery status dashboard, and visualize recovery timelines. Features color-coded status indicators, training statistics, and overtraining prevention alerts.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Fitness",
+            "Health",
+            "Recovery",
+            "Data Visualization",
+            "LocalStorage",
+            "Chart.js"
+        ],
+        "links": {
+            "live": "./projects/muscle-group-recovery-tracker/"
+        },
+        "author": {
+            "name": "Gupta",
+            "github": "https://github.com/Gupta-02"
+        }
     }
 ]
