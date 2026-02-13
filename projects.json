@@ -10102,40 +10102,20 @@
         }
     },
     {
-        "title": "Running Cadence Tracker",
-        "description": "Track your running cadence to optimize stride efficiency. Log runs with distance, time, and steps per minute. Features improvement graphs, optimal range indicators (170-190 spm), and performance statistics. Helps runners improve their running form and efficiency.",
-        "tags": [
-            "HTML",
-            "CSS",
-            "JavaScript",
-            "Fitness",
-            "Data Visualization",
-            "LocalStorage",
-            "Chart.js"
-        ],
-        "links": {
-            "live": "./projects/running-cadence-tracker/"
-        },
-        "author": {
-            "name": "Gupta",
-            "github": "https://github.com/Gupta-02"
-        }
-    },
-    {
-        "title": "Breath Rate Analyzer",
-        "description": "Monitor your breathing rate during rest and activity to track respiratory health. Log sessions with activity type, duration, and breaths per minute. Features trend visualization, health scoring based on normal ranges (12-20 bpm at rest), and respiratory pattern analysis. Supports awareness of abnormal breathing patterns.",
+        "title": "Thyroid Level Tracker",
+        "description": "Track T3, T4, and TSH lab results with multi-line comparison charts. Monitor thyroid hormone fluctuations over time with visual trend analysis. Features reference ranges, color-coded results (normal/borderline/abnormal), and comprehensive statistics. Helps manage thyroid disorders through data-driven insights.",
         "tags": [
             "HTML",
             "CSS",
             "JavaScript",
             "Health",
-            "Respiratory",
+            "Medical",
             "Data Visualization",
             "LocalStorage",
             "Chart.js"
         ],
         "links": {
-            "live": "./projects/breath-rate-analyzer/"
+            "live": "./projects/thyroid-level-tracker/"
         },
         "author": {
             "name": "Gupta",
