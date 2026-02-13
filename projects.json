@@ -10100,5 +10100,26 @@
             "name": "Gupta",
             "github": "https://github.com/Gupta-02"
         }
+    },
+    {
+        "title": "Thyroid Level Tracker",
+        "description": "Track T3, T4, and TSH lab results with multi-line comparison charts. Monitor thyroid hormone fluctuations over time with visual trend analysis. Features reference ranges, color-coded results (normal/borderline/abnormal), and comprehensive statistics. Helps manage thyroid disorders through data-driven insights.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Health",
+            "Medical",
+            "Data Visualization",
+            "LocalStorage",
+            "Chart.js"
+        ],
+        "links": {
+            "live": "./projects/thyroid-level-tracker/"
+        },
+        "author": {
+            "name": "Gupta",
+            "github": "https://github.com/Gupta-02"
+        }
     }
 ]
