@@ -40,6 +40,27 @@
         }
     },
     {
+        "title": "Sauna Session Tracker",
+        "description": "Monitor your sauna usage and heat tolerance with duration input, safety alerts, and tolerance graphs. Track session details, receive safety warnings, and get personalized recovery recommendations for safe heat therapy.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Health",
+            "Fitness",
+            "Safety",
+            "Data Visualization",
+            "LocalStorage"
+        ],
+        "links": {
+            "live": "./sauna-session-tracker/sauna-session-tracker.html"
+        },
+        "author": {
+            "name": "Gupta-02",
+            "github": "https://github.com/Gupta-02"
+        }
+    },
+    {
         "title": "Random Username Generator",
         "description": "A creative tool that generates unique, memorable usernames instantly. Features multiple styles (funny, professional, fantasy, tech, mixed), customizable separators, optional number suffixes, and length controls. Includes one-click copy and history tracking with localStorage.",
         "tags": [
