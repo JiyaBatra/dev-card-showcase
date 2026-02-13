@@ -606,6 +606,25 @@
         }
     },
     {
+        "title": "Quiz Ultra Pro",
+        "description": "A modern, fully animated quiz application built using pure HTML, CSS, and JavaScript. Features a glassmorphism interface with animated gradient backgrounds, circular countdown timer with SVG progress ring, smooth question transitions, ripple answer effects, real-time scoring, sound feedback, local high score storage, and confetti celebration for top performance. Includes seamless restart functionality without page reload and a fully responsive design.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Web Application",
+            "Interactive UI",
+            "Game Development"
+        ],
+        "links": {
+            "live": "./projects/Quiz-Pro/index.html"
+        },
+        "author": {
+            "name": "Priyanshu",
+            "github": "https://github.com/PriyanshuSingh00-hub"
+        }
+    },
+    {
         "title": "Platform Jump Pro",
         "description": "A polished 2D platformer game built using pure HTML, CSS, and JavaScript. Players control a character with smooth left-right movement and realistic jump physics while collecting coins and avoiding falling off platforms. Features gravity simulation, accurate collision detection, animated elements, structured game state management, score tracking, and a proper restart system without page reload.",
         "tags": [
