@@ -10120,5 +10120,26 @@
             "name": "Gupta",
             "github": "https://github.com/Gupta-02"
         }
+    },
+    {
+        "title": "Breath Rate Analyzer",
+        "description": "Monitor your breathing rate during rest and activity to track respiratory health. Log sessions with activity type, duration, and breaths per minute. Features trend visualization, health scoring based on normal ranges (12-20 bpm at rest), and respiratory pattern analysis. Supports awareness of abnormal breathing patterns.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Health",
+            "Respiratory",
+            "Data Visualization",
+            "LocalStorage",
+            "Chart.js"
+        ],
+        "links": {
+            "live": "./projects/breath-rate-analyzer/"
+        },
+        "author": {
+            "name": "Gupta",
+            "github": "https://github.com/Gupta-02"
+        }
     }
 ]
