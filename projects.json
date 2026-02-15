@@ -63,20 +63,49 @@
         }
     },
     {
-        "title": "HDL vs LDL Comparison Dashboard",
-        "description": "Compare HDL and LDL cholesterol trends with dual-line graphs and safe range indicators. Track lipid balance shifts over time to support heart health monitoring and cardiovascular risk assessment.",
+        "title": "Balance Stability Score",
+        "description": "Track your single-leg stand performance to monitor balance improvement and assess fall risk. Log balance test times, compare left vs right leg stability, and visualize your progress over time.",
         "tags": [
             "HTML",
             "CSS",
             "JavaScript",
+            "Fitness",
             "Health",
+            "Balance",
             "Data Visualization",
             "Chart.js",
             "LocalStorage"
         ],
         "links": {
-            "live": "./hdl-vs-ldl-comparison-dashboard/hdl-vs-ldl-comparison-dashboard.html"
+            "live": "./balance-stability-score/balance-stability-score.html"
         },
+        "author": {
+            "name": "Gupta-02",
+            "github": "https://github.com/Gupta-02"
+        }
+    },
+    {
+        "title": "Progressive Overload Calculator",
+        "description": "Calculate optimal weight increases for strength training progression. Input your current personal records and get scientifically-backed increment suggestions based on experience level and lift type.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Fitness",
+            "Strength Training",
+            "Calculator",
+            "Progressive Overload",
+            "Chart.js",
+            "LocalStorage"
+        ],
+        "links": {
+            "live": "./progressive-overload-calculator/progressive-overload-calculator.html"
+        },
+        "author": {
+            "name": "Gupta-02",
+            "github": "https://github.com/Gupta-02"
+        }
+    },
         "author": {
             "name": "Gupta-02",
             "github": "https://github.com/Gupta-02"
@@ -96,6 +125,27 @@
         ],
         "links": {
             "live": "./confidence-level-tracker/confidence-level-tracker.html"
+        },
+        "author": {
+            "name": "Gupta-02",
+            "github": "https://github.com/Gupta-02"
+        }
+    },
+    {
+        "title": "Overstimulation Risk Tracker",
+        "description": "Monitor your screen time and audio exposure to maintain mental clarity and prevent cognitive overload. Log daily stimulation levels, assess risk categories, and get personalized downtime recommendations.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Health",
+            "Mental Wellness",
+            "Data Visualization",
+            "Chart.js",
+            "LocalStorage"
+        ],
+        "links": {
+            "live": "./overstimulation-risk-tracker/overstimulation-risk-tracker.html"
         },
         "author": {
             "name": "Gupta-02",
@@ -138,6 +188,27 @@
         ],
         "links": {
             "live": "./digital-overstimulation-tracker.html"
+        },
+        "author": {
+            "name": "Gupta-02",
+            "github": "https://github.com/Gupta-02"
+        }
+    },
+    {
+        "title": "Air Quality Health Impact Tracker",
+        "description": "Monitor air pollution levels and track their impact on respiratory health. Log AQI readings, record breathing symptoms, and analyze correlations between air quality and health effects.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Health",
+            "Environment",
+            "Data Visualization",
+            "Chart.js",
+            "LocalStorage"
+        ],
+        "links": {
+            "live": "./air-quality-health-impact-tracker/air-quality-health-impact-tracker.html"
         },
         "author": {
             "name": "Gupta-02",
@@ -757,6 +828,26 @@
         }
     },
     {
+        "title": "Reflex Arena – Ultra Edition",
+        "description": "An advanced reflex and memory challenge game built using pure HTML, CSS, and JavaScript. Players must memorize flashing grid patterns and accurately repeat them within a limited time window. Features dynamic grid scaling (4x4 to 6x6), animated preview phase, timed input rounds, combo streak scoring, perfect round bonuses, progressive level difficulty, smooth UI transitions, and a structured restart system without page reload for a seamless arcade-style experience.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Game Development",
+            "Arcade Game",
+            "Memory Game",
+            "Reflex Challenge"
+        ],
+        "links": {
+            "live": "./projects/Reflex-arena/index.html"
+        },
+        "author": {
+            "name": "Priyanshu",
+            "github": "https://github.com/PriyanshuSingh00-hub"
+        }
+    },
+    {
         "title": "Car Dodge Pro",
         "description": "An interactive 2D car dodging arcade game built using pure HTML, CSS, and JavaScript. Players control a car and must avoid incoming enemy vehicles while the game speed gradually increases. Features smooth keyboard controls, real-time collision detection using bounding rectangles, animated road effects, dynamic difficulty scaling, and score tracking for an engaging arcade-style experience.",
         "tags": [
@@ -768,6 +859,25 @@
         ],
         "links": {
             "live": "./projects/Car-Dodging-Game/index.html"
+        },
+        "author": {
+            "name": "Priyanshu",
+            "github": "https://github.com/PriyanshuSingh00-hub"
+        }
+    },
+    {
+        "title": "Sand Ball Physics Simulator",
+        "description": "An interactive sand and ball physics simulation built using HTML5 Canvas, CSS, and JavaScript. Players can spawn dynamic balls that react to gravity, friction, and elasticity while interacting with particle-based sand effects. Features real-time physics controls, collision detection, wall bounce mechanics, particle bursts, motion trails, FPS tracking, slow-motion mode, and a seamless pause/restart system without page reload.",
+        "tags": [
+            "HTML5 Canvas",
+            "CSS",
+            "JavaScript",
+            "Physics Simulation",
+            "Game Development",
+            "Interactive Sandbox"
+        ],
+        "links": {
+            "live": "./projects/Sand-Ball-Game/index.html"
         },
         "author": {
             "name": "Priyanshu",
@@ -787,6 +897,25 @@
         ],
         "links": {
             "live": "./projects/Countdown-Pro/index.html"
+        },
+        "author": {
+            "name": "Priyanshu",
+            "github": "https://github.com/PriyanshuSingh00-hub"
+        }
+    },
+    {
+        "title": "Bullet Hell Mini",
+        "description": "A fast-paced bullet hell arcade shooter built using HTML5 Canvas, CSS, and JavaScript. Players dodge complex bullet patterns using smooth 360° movement, dash mechanics, and precision focus mode. Features a structured health system, invincibility frames, dynamic multi-pattern enemy waves, boss phase mechanics, particle hit effects, and a seamless restart system without page reload for an intense arcade-style experience.",
+        "tags": [
+            "HTML5 Canvas",
+            "CSS",
+            "JavaScript",
+            "Game Development",
+            "Arcade Shooter",
+            "Bullet Hell"
+        ],
+        "links": {
+            "live": "./projects/Bullet-hell-mini/index.html"
         },
         "author": {
             "name": "Priyanshu",
@@ -6886,6 +7015,24 @@
             "github": "https://github.com/omkarhole"
         }
     },
+     {
+        "title": "Colors Avalanche",
+        "description": "An interactive physics-based game where colorful blocks fall from the sky and must be caught before they hit the ground.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "Productivity",
+            "Education",
+            "Student Wellness"
+        ],
+        "links": {
+            "live": "./projects/Colors-Avalanche/index.html"
+        },
+        "author": {
+            "name": "Omkar",
+            "github": "https://github.com/omkarhole"
+        }
+    },
     {
         "title": "Unlimited Colors",
         "description": "A web application that generates unlimited random colors in HEX, RGB, and HSL formats with copy-to-clipboard functionality.",
@@ -7025,6 +7172,24 @@
             "github": "https://github.com/omkarhole"
         }
     },
+       {
+        "title": "Color Palette Generator \ud83c\udf3a",
+        "description": "A fun interactive activity that generates and displays color palettes.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "Productivity",
+            "Education",
+            "Student Wellness"
+        ],
+        "links": {
+            "live": "./projects/Color-Palette/index.html"
+        },
+        "author": {
+            "name": "Omkar",
+            "github": "https://github.com/omkarhole"
+        }
+    },
     {
         "title": "Study\u2013Rest Balance Guide \u2696\ufe0f",
         "description": "A visual guide that explains the importance of balancing study time with proper rest and recovery.",
@@ -7157,6 +7322,22 @@
             "github": "https://github.com/pavanakarthik12"
         }
     },
+     {
+        "title": "Liquid Gradient Page",
+        "description": "An interactive liquid gradient background with touch effects and customizable color schemes.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "links": {
+            "live": "./projects/Liquid-Gradient/index.html"
+        },
+        "author": {
+            "name": "Omkar",
+            "github": "https://github.com/omkarhole"
+        }
+    },
     {
         "title": "Swarmpath",
         "description": "Swarmpath is an interactive web-based visualization inspired by swarm intelligence and path exploration. It showcases how simple agents collectively discover efficient paths through dynamic environments using real-time visual feedback.",
@@ -7185,6 +7366,22 @@
         ],
         "links": {
             "live": "./projects/word-memory-game/index.html"
+        },
+        "author": {
+            "name": "Omkar",
+            "github": "https://github.com/omkarhole"
+        }
+    },
+     {
+        "title": "Phantom Protocol",
+        "description": "A professional code editor with multi-language support, customizable themes, real-time preview, and essential features like code download and clearing.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "links": {
+            "live": "./projects/Phantom-Protocol/index.html"
         },
         "author": {
             "name": "Omkar",
@@ -10970,6 +11167,27 @@
         }
     },
     {
+        "title": "Social Energy Tracker",
+        "description": "Monitor energy levels before and after social interactions to understand social burnout patterns. Log social events, rate pre/post energy levels, and track patterns for introvert/extrovert self-awareness.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Mental Health",
+            "Social Wellness",
+            "Data Visualization",
+            "Chart.js",
+            "LocalStorage"
+        ],
+        "links": {
+            "live": "./social-energy-tracker/social-energy-tracker.html"
+        },
+        "author": {
+            "name": "Gupta-02",
+            "github": "https://github.com/Gupta-02"
+        }
+    },
+    {
         "title": "Detox Symptom Tracker",
         "description": "Monitor symptoms during dietary or lifestyle detox programs to evaluate impact and progress safely. Track headache, fatigue, nausea, and other symptoms with trend analysis and personalized insights.",
         "tags": [
@@ -11304,6 +11522,29 @@
         ],
         "links": {
             "live": "./sunlight-exposure-tracker/sunlight-exposure-tracker.html"
+        },
+        "author": {
+            "name": "Gupta-02",
+            "github": "https://github.com/Gupta-02"
+        }
+    },
+    {
+        "title": "Gut Microbiome Log",
+        "description": "Track digestive health patterns by logging meals, symptoms, and analyzing food-symptom correlations. Monitor gut health trends, identify potential food triggers, and get insights for better digestive wellness.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Health",
+            "Nutrition",
+            "Data Visualization",
+            "Chart.js",
+            "LocalStorage",
+            "Gut Health",
+            "Digestive Tracking"
+        ],
+        "links": {
+            "live": "./gut-microbiome-log/gut-microbiome-log.html"
         },
         "author": {
             "name": "Gupta-02",
