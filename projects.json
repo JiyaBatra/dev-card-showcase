@@ -11127,6 +11127,25 @@
         "links": {
             "live": "./personal-health-resilience-score/personal-health-resilience-score.html"
         },
+    },
+    {
+        "title": "Nap Efficiency Tracker",
+        "description": "Log nap duration and measure productivity impact with post-nap performance ratings. Track optimal nap lengths with detailed analytics and comparison graphs for short vs long naps.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Health",
+            "Wellness",
+            "Productivity",
+            "Data Visualization",
+            "Chart.js",
+            "LocalStorage",
+            "Timer"
+        ],
+        "links": {
+            "live": "./nap-efficiency-tracker/nap-efficiency-tracker.html"
+        },
         "author": {
             "name": "Gupta-02",
             "github": "https://github.com/Gupta-02"
