@@ -11288,5 +11288,28 @@
             "name": "Gupta-02",
             "github": "https://github.com/Gupta-02"
         }
+    },
+    {
+        "title": "Gut Microbiome Log",
+        "description": "Track digestive health patterns by logging meals, symptoms, and analyzing food-symptom correlations. Monitor gut health trends, identify potential food triggers, and get insights for better digestive wellness.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Health",
+            "Nutrition",
+            "Data Visualization",
+            "Chart.js",
+            "LocalStorage",
+            "Gut Health",
+            "Digestive Tracking"
+        ],
+        "links": {
+            "live": "./gut-microbiome-log/gut-microbiome-log.html"
+        },
+        "author": {
+            "name": "Gupta-02",
+            "github": "https://github.com/Gupta-02"
+        }
     }
 ]
