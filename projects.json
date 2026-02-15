@@ -10769,8 +10769,8 @@
         }
     },
     {
-        "title": "Emotional Trigger Duration Tracker",
-        "description": "Track how long emotional triggers affect your mood with start/end time logging and duration analysis. Monitor emotional persistence, identify patterns, and improve emotional regulation through data-driven insights.",
+        "title": "Emotional Reactivity Score",
+        "description": "Measure the intensity of your emotional responses and track reactivity patterns over time. Log reaction triggers, intensity levels, and duration to quantify emotional reactivity and improve self-regulation.",
         "tags": [
             "HTML",
             "CSS",
@@ -10781,10 +10781,10 @@
             "Chart.js",
             "LocalStorage",
             "Emotional Intelligence",
-            "Mood Tracking"
+            "Self-Regulation"
         ],
         "links": {
-            "live": "./emotional-trigger-duration-tracker/emotional-trigger-duration-tracker.html"
+            "live": "./emotional-reactivity-score/emotional-reactivity-score.html"
         },
         "author": {
             "name": "Gupta",
