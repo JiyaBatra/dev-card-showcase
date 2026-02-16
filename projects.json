@@ -4594,7 +4594,7 @@
             "JavaScript"
         ],
         "links": {
-            "live": "./projects/task-master/index.html"
+            "live": "./projects/Task-master/index.html"
         },
         "author": {
             "name": "CodeMaster",
@@ -4766,7 +4766,7 @@
             "github": "https://github.com/your-github-username"
         }
     },
-     {
+    {
         "title": "Budget Planner",
         "description": "A user-friendly budget planning tool that helps users track income and expenses, set financial goals, and visualize spending patterns with charts and graphs.",
         "tags": [
@@ -7131,7 +7131,7 @@
             "github": "https://github.com/omkarhole"
         }
     },
-     {
+    {
         "title": "Colors Avalanche",
         "description": "An interactive physics-based game where colorful blocks fall from the sky and must be caught before they hit the ground.",
         "tags": [
@@ -7288,7 +7288,7 @@
             "github": "https://github.com/omkarhole"
         }
     },
-       {
+    {
         "title": "Color Palette Generator \ud83c\udf3a",
         "description": "A fun interactive activity that generates and displays color palettes.",
         "tags": [
@@ -7438,7 +7438,7 @@
             "github": "https://github.com/pavanakarthik12"
         }
     },
-     {
+    {
         "title": "Liquid Gradient Page",
         "description": "An interactive liquid gradient background with touch effects and customizable color schemes.",
         "tags": [
@@ -7488,7 +7488,7 @@
             "github": "https://github.com/omkarhole"
         }
     },
-     {
+    {
         "title": "Phantom Protocol",
         "description": "A professional code editor with multi-language support, customizable themes, real-time preview, and essential features like code download and clearing.",
         "tags": [
@@ -11685,7 +11685,7 @@
         ],
         "links": {
             "live": "./gut-microbiome-log/gut-microbiome-log.html"
-        },
+        }
     },
     {
         "title": "Nutrient Deficiency Risk Scanner",
