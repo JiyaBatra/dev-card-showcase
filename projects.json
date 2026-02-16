@@ -1,40 +1,19 @@
 [
     {
-        "title": "Micro-Break Optimization Tracker",
-        "description": "Track break frequency, effectiveness, and optimize timing for maximum productivity and mental wellness. Features break timer, productivity rating, fatigue correlation analysis, and adaptive recommendations.",
+        "title": "Pulse Pressure Analyzer",
+        "description": "Monitor cardiovascular health by tracking pulse pressure trends (SBP-DBP) with alert thresholds and health insights. Perfect for aging population cardiovascular monitoring with data-driven recommendations.",
         "tags": [
             "HTML",
             "CSS",
             "JavaScript",
-            "Productivity",
-            "Wellness",
+            "Health",
+            "Cardiovascular",
             "Data Visualization",
             "Chart.js",
             "LocalStorage"
         ],
         "links": {
-            "live": "./micro-break-optimization-tracker/micro-break-optimization-tracker.html"
-        },
-        "author": {
-            "name": "Gupta-02",
-            "github": "https://github.com/Gupta-02"
-        }
-    },
-    {
-        "title": "Sprint Fatigue Curve Analyzer",
-        "description": "Track fatigue across repeated sprint intervals and visualize performance decline during HIIT workouts. Input sprint times to analyze fatigue curves and get insights for optimizing training intensity.",
-        "tags": [
-            "HTML",
-            "CSS",
-            "JavaScript",
-            "Fitness",
-            "HIIT",
-            "Data Visualization",
-            "Chart.js",
-            "LocalStorage"
-        ],
-        "links": {
-            "live": "./sprint-fatigue-curve-analyzer/sprint-fatigue-curve-analyzer.html"
+            "live": "./pulse-pressure-analyzer/pulse-pressure-analyzer.html"
         },
         "author": {
             "name": "Gupta-02",
