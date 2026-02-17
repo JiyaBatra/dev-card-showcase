@@ -882,6 +882,27 @@
         }
     },
     {
+        "title": "Hacker Escape Room #3786",
+        "description": "A full-featured cyber escape room engine built with HTML, CSS, and JavaScript featuring a simulated terminal filesystem and command parser system. Players interact using real commands (cd, ls, cat, help, clear, hack) to navigate directories, solve logic riddles, crack passwords through animated brute-force sequences, and progress through multi-level branching challenges under a countdown timer. Includes glitch animations, immersive sound effects, and structured game-state management for a complete hacker-themed experience.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Game Development",
+            "Interactive Fiction",
+            "Command Parser",
+            "Puzzle Game",
+            "Cyber UI"
+        ],
+        "links": {
+            "live": "./projects/hacker-escape-room-3786/index.html"
+        },
+        "author": {
+            "name": "Priyanshu",
+            "github": "https://github.com/PriyanshuSingh00-hub"
+        }
+    },
+    {
         "title": "Code Formattor pro",
         "description": "A utility tool to format and minify HTML code with live preview. Features include beautifying HTML, minifying HTML, copying formatted code, downloading as a file, and a dark mode toggle for comfortable use.",
         "tags": [
