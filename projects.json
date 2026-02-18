@@ -11945,5 +11945,26 @@
             "name": "Gupta-02",
             "github": "https://github.com/Gupta-02"
         }
+    },
+    {
+        "title": "Mental Clarity Index",
+        "description": "Aggregates sleep, hydration, and stress levels into a unified mental performance metric using a weighted algorithm. Predicts productivity peaks throughout the day.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Mental Health",
+            "Productivity",
+            "Data Visualization",
+            "Chart.js",
+            "LocalStorage"
+        ],
+        "links": {
+            "live": "./mental-clarity-index.html"
+        },
+        "author": {
+            "name": "Gupta-02",
+            "github": "https://github.com/Gupta-02"
+        }
     }
 ]
