@@ -13186,6 +13186,16 @@
             "HTML",
             "CSS",
             "JavaScript",
+            "Algorithms",
+            "Visualization",
+            "Puzzle"
+        ],
+        "links": {
+            "live": "./projects/n-queens/index.html"
+        },
+        "author": {
+            "name": "Tanmayi",
+            "github": "https://github.com/Tanmayi30"
             "Health",
             "Nutrition",
             "Anti-Inflammatory",
