@@ -13180,10 +13180,8 @@
         }
     },
     {
-        "title": "N-Queens Visualizer & Puzzle",
-        "description": "An interactive algorithm visualizer and puzzle for the classic N-Queens problem. Watch the backtracking algorithm solve the board in real-time, or challenge your own spatial logic in manual puzzle mode.",
-        "title": "Mental Reset Timer",
-        "description": "Track mental fatigue levels and monitor the effectiveness of reset activities. Time your mental recovery sessions, log pre/post mental states, and optimize your cognitive restoration strategies for better mental health and productivity.",
+        "title": "Anti-Inflammatory Habit Index",
+        "description": "Track daily habits that reduce chronic inflammation. Monitor nutrition quality, exercise consistency, sleep patterns, stress management, and lifestyle factors to optimize your anti-inflammatory lifestyle score and reduce inflammation risk.",
         "tags": [
             "HTML",
             "CSS",
@@ -13199,16 +13197,16 @@
             "name": "Tanmayi",
             "github": "https://github.com/Tanmayi30"
             "Health",
-            "Mental Health",
-            "Productivity",
-            "Cognitive Recovery",
-            "Stress Management",
+            "Nutrition",
+            "Anti-Inflammatory",
+            "Lifestyle",
+            "Chronic Disease Prevention",
             "Data Visualization",
             "Chart.js",
             "LocalStorage"
         ],
         "links": {
-            "live": "./projects/mental-reset-timer/mental-reset-timer.html"
+            "live": "./projects/anti-inflammatory-habit-index/anti-inflammatory-habit-index.html"
         },
         "author": {
             "name": "Gupta-02",
