@@ -427,6 +427,29 @@
         }
     },
     {
+        "title": "Screen-Induced Fatigue Analyzer",
+        "description": "Monitor how screen time affects your fatigue levels, eye strain, and cognitive performance. Track daily screen usage patterns and correlate them with symptoms to optimize your digital wellness routine.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Health",
+            "Digital Wellness",
+            "Eye Health",
+            "Data Visualization",
+            "Chart.js",
+            "LocalStorage",
+            "Statistics"
+        ],
+        "links": {
+            "live": "./projects/screen-induced-fatigue-analyzer/screen-induced-fatigue-analyzer.html"
+        },
+        "author": {
+            "name": "Gupta-02",
+            "github": "https://github.com/Gupta-02"
+        }
+    },
+    {
         "title": "Air Quality Health Impact Tracker",
         "description": "Monitor air pollution levels and track their impact on respiratory health. Log AQI readings, record breathing symptoms, and analyze correlations between air quality and health effects.",
         "tags": [
