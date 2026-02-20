@@ -12037,6 +12037,30 @@
         }
     },
     {
+        "title": "Muscular Firing Coordination Tracker",
+        "description": "Analyze and optimize muscle activation patterns during exercises. Track firing sequences, identify coordination imbalances, and improve movement efficiency through data-driven insights on muscular timing and synergy.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Fitness",
+            "Health",
+            "Exercise",
+            "Coordination",
+            "Data Visualization",
+            "LocalStorage",
+            "Chart.js",
+            "Muscle Activation"
+        ],
+        "links": {
+            "live": "./projects/muscular-firing-coordination-tracker/muscular-firing-coordination-tracker.html"
+        },
+        "author": {
+            "name": "Gupta-02",
+            "github": "https://github.com/Gupta-02"
+        }
+    },
+    {
         "title": "Liver Function Tracker",
         "description": "Monitor liver health through enzyme level tracking with medical reference ranges. Log ALT, AST, bilirubin, and ALP levels with automatic status indicators. Features trend analysis, health insights, comprehensive medical reference guide, and warning alerts for abnormal values. Helps users track liver function over time and identify potential health concerns early.",
         "tags": [
