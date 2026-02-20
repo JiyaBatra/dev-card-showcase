@@ -13613,6 +13613,35 @@
         "links": {
             "live": "./cognitive-saturation-alert/cognitive-saturation-alert.html"
         },
+        "author": {
+            "name": "Gupta-02",
+            "github": "https://github.com/Gupta-02"
+        }
+    },
+    {
+        "title": "Mitochondrial Health Score",
+        "description": "Assess and track your mitochondrial health - the powerhouse of your cells. Evaluate exercise, sleep, diet, stress, and supplement factors that influence cellular energy production with personalized recommendations for optimal mitochondrial function.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Health",
+            "Fitness",
+            "Mitochondrial Health",
+            "Cellular Energy",
+            "Wellness",
+            "Data Visualization",
+            "Chart.js",
+            "LocalStorage",
+            "Health Assessment"
+        ],
+        "links": {
+            "live": "./mitochondrial-health-score/mitochondrial-health-score.html"
+        },
+        "author": {
+            "name": "Gupta-02",
+            "github": "https://github.com/Gupta-02"
+        }
     },
     {
         "title": "Personalized Health Risk Projection Engine",
