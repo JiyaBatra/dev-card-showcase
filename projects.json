@@ -1,5 +1,31 @@
 [
     {
+        "title": "Kinetic Chain Integrity Log",
+        "description": "Monitor and optimize your kinetic chain integrity by tracking how body segments work together in coordinated movement patterns. Identify movement compensations, assess biomechanical efficiency, and develop strategies for improved movement quality and injury prevention.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Health",
+            "Fitness",
+            "Biomechanics",
+            "Movement Analysis",
+            "Physical Therapy",
+            "Injury Prevention",
+            "Data Visualization",
+            "Chart.js",
+            "LocalStorage",
+            "Kinetic Chain"
+        ],
+        "links": {
+            "live": "./projects/kinetic-chain-integrity-log/kinetic-chain-integrity-log.html"
+        },
+        "author": {
+            "name": "Gupta-02",
+            "github": "https://github.com/Gupta-02"
+        }
+    },
+    {
         "title": "Reflective Thinking Frequency Monitor",
         "description": "Track and analyze your reflective thinking patterns to enhance metacognition and self-awareness. Monitor the frequency, quality, and themes of your reflections to develop stronger critical thinking habits and emotional intelligence.",
         "tags": [
