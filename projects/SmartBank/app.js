@@ -4,7 +4,7 @@ if(
 !location.pathname.includes("signup")
 ){
     if(!localStorage.getItem("loggedIn")){
-    window.location.href="login.html";
+    window.location.href="index.html";
     }
 }
 
