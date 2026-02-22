@@ -2220,6 +2220,18 @@
       "github": "https://github.com/your-github-username"
     }
   },
+   {
+    "title": "Parametric Surface Visualizer",
+    "description": "A web-based visualization tool for parametric surfaces in 3D space. Features interactive controls, multiple surface types, and a responsive design for exploring mathematical surfaces.",
+    "tags": ["HTML", "CSS", "JavaScript", "Utility Tool"],
+    "links": {
+      "live": "./projects/Parametric-Surface/index.html"
+    },
+    "author": {
+      "name": "Omkar",
+      "github": "https://github.com/omkarhole"
+    }
+  },
   {
     "title": "Vertical Clock",
     "description": "A vertical clock display with customizable 12-hour and 24-hour formats, featuring a card-themed design option and smooth animations for a visually appealing timekeeping experience.",
@@ -2348,6 +2360,18 @@
       "github": "https://github.com/your-github-username"
     }
   },
+    {
+    "title": "Solar System project",
+    "description": "An interactive 3D visualization of our solar system with realistic planet sizes and orbital paths. Features include zoom controls, planet information panels, and a responsive design for all devices.",
+    "tags": ["HTML", "CSS", "JavaScript", "3D Visualization"],
+    "links": {
+      "live": "./projects/Solar-css-System/index.html"
+    },
+    "author": {
+      "name": "Omkar",
+      "github": "https://github.com/omkarhole"
+    }
+  },
   {
     "title": "3D Periodic Table",
     "description": "An interactive 3D periodic table that allows users to explore elements in a visually engaging way. Features include rotating the table, clicking on elements for detailed information, and a modern design with smooth animations.",
@@ -2408,6 +2432,18 @@
       "github": "https://github.com/omkarhole"
     }
   },
+    {
+    "title": "Apple watch like Mickey",
+    "description": "A web application that mimics the look and feel of an Apple Watch interface with a Mickey Mouse theme. Features a sleek design, interactive elements, and responsive layout.",
+    "tags": ["HTML", "CSS", "JavaScript", "Utility Tool"],
+    "links": {
+      "live": "./projects/Apple-Watch-Like-Mickey/index.html"
+    },
+    "author": {
+      "name": "Omkar",
+      "github": "https://github.com/omkarhole"
+    }
+  },
   {
     "title": "CSS Perspective playground",
     "description": "A web application that allows users to experiment with CSS perspective properties. Users can adjust perspective values and see the effects on 3D elements in real time.",
@@ -2456,6 +2492,18 @@
       "github": "https://github.com/omkarhole"
     }
   },
+    {
+    "title": "Interactive Neural Network",
+    "description": "An interactive visualization of a neural network with adjustable parameters and real-time updates. Users can manipulate weights, biases, and activation functions to see how they affect the network's behavior.",
+    "tags": ["HTML", "CSS", "JavaScript", "Utility Tool"],
+    "links": {
+      "live": "./projects/Interactive-Neural-Network/index.html"
+    },
+    "author": {
+      "name": "Omkar",
+      "github": "https://github.com/omkarhole"
+    }
+  },
   {
     "title": "Power Nap Tracker 🛌",
     "description": "A comprehensive web application for tracking power naps and optimizing energy management. Log nap duration, quality, and energy levels to visualize energy impact and get personalized timing tips.",
@@ -2469,6 +2517,18 @@
     }
   },
   {
+    "title": "frantic-run-of-the-valorous-rabbit",
+    "description": "An endless runner game where players control a brave rabbit navigating through a perilous landscape filled with obstacles and enemies. The game features smooth animations, responsive controls, and an engaging gameplay loop that challenges players to survive as long as possible while collecting rewards and power-ups.",
+    "tags": ["HTML", "CSS", "JavaScript", "Utility Tool"],
+    "links": {
+      "live": "./projects/frantic-run-of-the-valorous-rabbit/index.html"
+    },
+    "author": {
+      "name": "Omkar",
+      "github": "https://github.com/omkarhole"
+    }
+  },
+  {
     "title": "Truth & Dare Mini Game",
     "description": "A fun and interactive Truth & Dare mini game with a gamified scoring system, animated cards, and a clean modern UI. Designed to be fully responsive and engaging, making it ideal for casual play and party-style interactions across devices.",
     "tags": ["HTML", "CSS", "JavaScript", "Game", "UI/UX"],
@@ -2478,6 +2538,18 @@
     "author": {
       "name": "Anvesha",
       "github": "https://github.com/your-github-username"
+    }
+  },
+    {
+    "title": "CSS-Animated-Search-Box",
+    "description": "An animated search box with smooth transitions and visual feedback. Features a clean design with interactive elements and responsive behavior.",
+    "tags": ["HTML", "CSS", "JavaScript", "Utility Tool"],
+    "links": {
+      "live": "./projects/CSS-Animated-Search-Box/index.html"
+    },
+    "author": {
+      "name": "Omkar",
+      "github": "https://github.com/omkarhole"
     }
   },
   {
@@ -2510,6 +2582,18 @@
     "tags": ["HTML", "CSS", "JavaScript", "Utility Tool"],
     "links": {
       "live": "./projects/Flexbox-Playground/index.html"
+    },
+    "author": {
+      "name": "Omkar",
+      "github": "https://github.com/omkarhole"
+    }
+  },
+    {
+    "title": "Traffic Run Game",
+    "description": "A 3D racing game built with Three.js. Players navigate through a track with obstacles and other vehicles, aiming to achieve the highest score possible.",
+    "tags": ["HTML", "CSS", "JavaScript", "Game", "Three.js"],
+    "links": {
+      "live": "./projects/Traffic-Run-Game/index.html"
     },
     "author": {
       "name": "Omkar",
@@ -3631,6 +3715,18 @@
     "author": {
       "name": "Anvesha",
       "github": "https://github.com/your-github-username"
+    }
+  },
+    {
+    "title": "CSS loading animations",
+      "description": "A collection of CSS-only loading animations that are visually appealing and easy to implement in web projects.",
+    "tags": ["HTML", "CSS", "JavaScript"],
+    "links": {
+      "live": "./projects/CSS-Loading-Animations/"
+    },
+    "author": {
+      "name": "Omkar",
+      "github": "https://github.com/omkarhole"
     }
   },
   {
