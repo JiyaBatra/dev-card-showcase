@@ -166,6 +166,32 @@
     }
   },
   {
+    "title": "Thought Processing Speed Monitor",
+    "description": "Measure and track your cognitive processing speed through targeted mental exercises and reaction time tests. Monitor mental clarity, decision-making speed, focus duration, and cognitive fatigue to optimize brain performance and identify areas for improvement.",
+    "tags": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Mental Health",
+      "Cognitive Training",
+      "Brain Performance",
+      "Reaction Time",
+      "Processing Speed",
+      "Mental Clarity",
+      "Data Visualization",
+      "Chart.js",
+      "LocalStorage",
+      "Progress Tracking"
+    ],
+    "links": {
+      "live": "./projects/thought-processing-speed-monitor/index.html"
+    },
+    "author": {
+      "name": "Gupta-02",
+      "github": "https://github.com/Gupta-02"
+    }
+  },
+  {
     "title": "Reactive Agility Monitor",
     "description": "Track and analyze your reactive agility performance across various movement patterns and response scenarios. Monitor response times, movement quality, direction changes, and fatigue levels to optimize your reactive movement capabilities and improve athletic performance.",
     "tags": [
