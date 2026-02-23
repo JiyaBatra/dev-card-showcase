@@ -12350,5 +12350,34 @@
       "name": "Gupta-02",
       "github": "https://github.com/Gupta-02"
     }
+  },
+  {
+    "title": "API Rate Governance Controller",
+    "description": "A comprehensive tool for managing and monitoring API rate limits with real-time governance and analytics. Simulate API requests, configure rate limiting parameters, track performance metrics, and visualize request patterns. Features include configurable rate limits, burst handling, backoff strategies, retry mechanisms, and detailed logging with Chart.js visualizations.",
+    "tags": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "API",
+      "Rate Limiting",
+      "Performance Monitoring",
+      "Data Visualization",
+      "Chart.js",
+      "Async Programming",
+      "HTTP Requests",
+      "Real-time Analytics",
+      "Simulation",
+      "Backoff Strategies",
+      "Retry Logic",
+      "LocalStorage",
+      "Responsive Design"
+    ],
+    "links": {
+      "live": "./api-rate-governance-controller/api-rate-governance-controller.html"
+    },
+    "author": {
+      "name": "Gupta-02",
+      "github": "https://github.com/Gupta-02"
+    }
   }
 ]
