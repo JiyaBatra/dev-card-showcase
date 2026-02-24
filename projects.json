@@ -27,6 +27,36 @@
     }
   },
   {
+    "title": "Real-Time Translation Proxy #5060",
+    "description": "Advanced real-time translation proxy system that intercepts web requests and translates content on-the-fly. Features proxy server simulation, multiple translation engines (Google Translate, Microsoft Translator, DeepL), intelligent caching, language detection, real-time analytics, and comprehensive performance monitoring. Includes dashboard with metrics, translation history, cache performance, and API key management.",
+    "tags": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Translation",
+      "Proxy Server",
+      "API Integration",
+      "Caching",
+      "Real-time Processing",
+      "Language Detection",
+      "Analytics",
+      "Chart.js",
+      "LocalStorage",
+      "Web Proxy",
+      "Translation API",
+      "Performance Monitoring",
+      "Responsive Design",
+      "Data Visualization"
+    ],
+    "links": {
+      "live": "./projects/real-time-translation-proxy/real-time-translation-proxy.html"
+    },
+    "author": {
+      "name": "Gupta-02",
+      "github": "https://github.com/Gupta-02"
+    }
+  },
+  {
     "title": "Multi-Plane Mobility Tracker",
     "description": "Track and improve your mobility across all three planes of movement: sagittal, frontal, and transverse. Monitor range of motion, identify imbalances, assess pain levels, and track progress over time with comprehensive mobility assessments and data visualization.",
     "tags": [
