@@ -1671,6 +1671,18 @@
       "github": "https://github.com/PriyanshuSingh00-hub"
     }
   },
+    {
+    "title": "WebGL Liquid Masking",
+    "description": "A WebGL-based liquid masking simulation that demonstrates realistic fluid dynamics and masking effects in a 3D environment. Features interactive controls, real-time rendering, and a visually engaging interface built with WebGL and JavaScript.",
+    "tags": ["HTML", "CSS", "JavaScript", "WebGL", "Simulation"],
+    "links": {
+      "live": "./projects/WebGL-liquid-masking/index.html"
+    },
+    "author": {
+      "name": "Omkar",
+      "github": "https://github.com/omkarhole"
+    }
+  },
   {
   "title": "Quantum Timeline Hacker",
   "description": "A reality-shifting cyber puzzle game built using modular HTML, CSS, and JavaScript architecture. Players navigate across three alternate timelines (Reality A / B / C) using a real-time timeline switching mechanic (Press T) to manipulate environment states. Objects exist in specific timelines, requiring strategic dimension shifting to solve puzzles, bypass security systems, and access locked areas. Features adaptive AI security drones, interactive terminal hacking nodes, dynamic state-based rendering, and seamless progression without page reload.",
@@ -1699,6 +1711,18 @@
     "tags": ["HTML", "CSS", "JavaScript", "Game", "Incremental"],
     "links": {
       "live": "./projects/3D-Quantum/index.html"
+    },
+    "author": {
+      "name": "Omkar",
+      "github": "https://github.com/omkarhole"
+    }
+  },
+    {
+    "title": "WebGL-Fluid-Simulation",
+    "description": "A WebGL-based fluid simulation that demonstrates realistic fluid dynamics in a 3D environment. Features interactive controls, real-time rendering, and a visually engaging interface built with WebGL and JavaScript.",
+    "tags": ["HTML", "CSS", "JavaScript", "WebGL", "Simulation"],
+    "links": {
+      "live": "./projects/WebGL-Fluid-Simulation/index.html"
     },
     "author": {
       "name": "Omkar",
@@ -1738,6 +1762,18 @@
       "github": "https://github.com/omkarhole"
     }
   },
+    {
+    "title": "DVD Screensaver Simulator",
+    "description": "A simulation of the classic DVD screensaver with bouncing DVD logo. Features realistic physics, collision detection, and a nostalgic visual style.",
+    "tags": ["HTML", "CSS", "JavaScript", "Utility Tool"],
+    "links": {
+      "live": "./projects/DVD-screensaver-simulator/index.html"
+    },
+    "author": {
+      "name": "Omkar",
+      "github": "https://github.com/omkarhole"
+    }
+  },
   {
     "title": "Hacker Escape Room #3786",
     "description": "A full-featured cyber escape room engine built with HTML, CSS, and JavaScript featuring a simulated terminal filesystem and command parser system. Players interact using real commands (cd, ls, cat, help, clear, hack) to navigate directories, solve logic riddles, crack passwords through animated brute-force sequences, and progress through multi-level branching challenges under a countdown timer. Includes glitch animations, immersive sound effects, and structured game-state management for a complete hacker-themed experience.",
@@ -1759,12 +1795,24 @@
       "github": "https://github.com/PriyanshuSingh00-hub"
     }
   },
-  {
+    {
     "title": "Code Formattor pro",
     "description": "A utility tool to format and minify HTML code with live preview. Features include beautifying HTML, minifying HTML, copying formatted code, downloading as a file, and a dark mode toggle for comfortable use.",
     "tags": ["HTML", "CSS", "JavaScript", "Utility Tool"],
     "links": {
       "live": "./projects/React-formattor/index.html"
+    },
+    "author": {
+      "name": "Omkar",
+      "github": "https://github.com/omkarhole"
+    }
+  },
+  {
+    "title": "Mouse Cursor Motion Blur",
+    "description": "A utility tool that adds a motion blur effect to the mouse cursor, creating a visually appealing trail effect as the cursor moves across the screen.",
+    "tags": ["HTML", "CSS", "JavaScript", "Utility Tool"],
+    "links": {
+      "live": "./projects/Mouse-cursor-motion-blur/index.html"
     },
     "author": {
       "name": "Omkar",
@@ -12972,6 +13020,117 @@
     ],
     "links": {
       "live": "./autonomous-context-partitioning-protocol/autonomous-context-partitioning-protocol.html"
+    },
+    "author": {
+      "name": "Gupta-02",
+      "github": "https://github.com/Gupta-02"
+    }
+  },
+  {
+    "title": "Predictive Conversation Routing Framework #5192",
+    "description": "An intelligent framework for routing conversations to the most appropriate agents using predictive analytics. Features multiple routing algorithms (sentiment-based, topic-modeling, intent-classification, urgency-scoring, multi-modal), real-time visualization of routing decisions, agent workload balancing, and performance metrics tracking for optimal conversation handling in customer service environments.",
+    "tags": [
+      "HTML",
+      "CSS", 
+      "JavaScript",
+      "AI/ML",
+      "Conversation Routing",
+      "Predictive Analytics", 
+      "Customer Service",
+      "Agent Management",
+      "Sentiment Analysis",
+      "Topic Modeling",
+      "Intent Classification",
+      "Urgency Scoring",
+      "Multi-modal Analysis",
+      "Data Visualization",
+      "Canvas API",
+      "Real-time Processing",
+      "Performance Metrics",
+      "Workload Balancing"
+    ],
+    "links": {
+      "live": "./predictive-conversation-routing-framework/predictive-conversation-routing-framework.html"
+    },
+    "author": {
+      "name": "Gupta-02",
+      "github": "https://github.com/Gupta-02"
+    }
+  {
+    "title": "Intelligent Workflow Synchronization Core",
+    "description": "An intelligent core for synchronizing complex workflows with dependency management and resource optimization. Features multiple synchronization methods (priority-based, dependency-aware, resource-optimized, time-critical, adaptive-learning), real-time workflow visualization, performance metrics tracking, and interactive controls for workflow management and optimization.",
+    "tags": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "AI/ML",
+      "Workflow Management",
+      "Dependency Resolution",
+      "Resource Optimization",
+      "Task Scheduling",
+      "Synchronization Algorithms",
+      "Performance Metrics",
+      "Data Visualization",
+      "Canvas API",
+      "Real-time Processing",
+      "Adaptive Learning",
+      "Project Management"
+    ],
+    "links": {
+      "live": "./intelligent-workflow-synchronization-core/intelligent-workflow-synchronization-core.html"
+    },
+  },
+  {
+    "title": "Distributed Semantic Index Fabric #5194",
+    "description": "A distributed semantic indexing system that creates interconnected knowledge networks across multiple nodes. Features multiple indexing strategies (semantic-embedding, graph-based, vector-quantization, hierarchical-clustering, distributed-hashing), real-time visualization of the index fabric, distributed search capabilities, load balancing metrics, and performance optimization for large-scale semantic search operations.",
+    "tags": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "AI/ML",
+      "Distributed Systems",
+      "Semantic Indexing",
+      "Knowledge Networks",
+      "Search Algorithms",
+      "Load Balancing",
+      "Performance Optimization",
+      "Data Visualization",
+      "Canvas API",
+      "Real-time Processing",
+      "Graph Theory",
+      "Vector Quantization",
+      "Hierarchical Clustering",
+      "Distributed Hashing"
+    ],
+    "links": {
+      "live": "./distributed-semantic-index-fabric/distributed-semantic-index-fabric.html"
+    },
+    "author": {
+      "name": "Gupta-02",
+      "github": "https://github.com/Gupta-02"
+    }
+  {
+    "title": "Hyper-Scalable Inference Orchestration Grid",
+    "description": "A hyper-scalable orchestration grid for AI model inference across distributed compute resources. Features intelligent load balancing, dynamic scaling strategies (horizontal, vertical, hybrid, predictive), real-time visualization of inference workloads, performance metrics tracking, and adaptive resource allocation for optimal AI inference performance.",
+    "tags": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "AI/ML",
+      "Inference Orchestration",
+      "Distributed Computing",
+      "Load Balancing",
+      "Dynamic Scaling",
+      "Resource Management",
+      "Performance Metrics",
+      "Real-time Visualization",
+      "Canvas API",
+      "Adaptive Algorithms",
+      "Cloud Computing",
+      "Model Deployment"
+    ],
+    "links": {
+      "live": "./hyper-scalable-inference-orchestration-grid/hyper-scalable-inference-orchestration-grid.html"
     },
     "author": {
       "name": "Gupta-02",
