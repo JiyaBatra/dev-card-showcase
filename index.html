@@ -9,7 +9,11 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/png" href="Hall of Fame (1).png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Space+Grotesk:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet" />
 </head>
 
 <body>
@@ -48,9 +52,13 @@
         <div class="circle"></div>
         <div class="circle"></div>
     </div>
-
-
-    
+<!--space look-->
+<div class="space-orbs">
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
+    <div class="shooting-star"></div>
     <!-- Page Loader -->
 
 
@@ -121,22 +129,36 @@
     <!-- NAVBAR END -->
 
     <!-- 🔍 SEARCH & FILTER SECTION -->
-    <section class="search-filter-container">
     
-    <section class="search-filter-container"
+    
+   <section class="search-filter-container"
     style="
         display: flex;
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
-        gap: 15px;
-        padding: 20px;
-        margin: 30px auto;
+        gap: 18px;
+        padding: 25px;
+        margin: 40px auto;
         max-width: 1100px;
-        border-radius: 14px;
-        backdrop-filter: blur(12px);
-        background: var(--filter-bg, #f4f8ff);
-        box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+        border-radius: 18px;
+
+        /* 🌌 Space Background */
+        background: radial-gradient(circle at top left, rgba(99,102,241,0.25), transparent 40%),
+                    radial-gradient(circle at bottom right, rgba(168,85,247,0.25), transparent 40%),
+                    linear-gradient(135deg, #0f172a, #1e1b4b);
+
+        backdrop-filter: blur(18px);
+        border: 1px solid rgba(255, 255, 255, 0.08);
+
+        box-shadow: 
+            0 0 25px rgba(99,102,241,0.35),
+            0 0 60px rgba(168,85,247,0.15),
+            0 8px 30px rgba(0,0,0,0.6);
+
+        color: #f1f5f9;
+        position: relative;
+        overflow: hidden;
     ">
 
     <input type="text"
