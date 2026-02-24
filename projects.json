@@ -31,6 +31,34 @@
     }
   },
   {
+    "title": "Real-Time Behavioral Pattern Synthesizer #5216",
+    "description": "Analyze and synthesize behavioral patterns in real-time through user interactions. Track mouse movements, clicks, scrolling, typing patterns, and attention spans to identify behavioral tendencies. Features real-time data visualization, pattern analysis, behavioral insights, and data export capabilities.",
+    "tags": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Behavioral Analysis",
+      "Pattern Recognition",
+      "Real-Time Tracking",
+      "Data Visualization",
+      "Chart.js",
+      "User Behavior",
+      "Attention Tracking",
+      "Interaction Analysis",
+      "Behavioral Psychology",
+      "Pattern Synthesis",
+      "Data Export",
+      "Real-Time Analytics"
+    ],
+    "links": {
+      "live": "./real-time-behavioral-pattern-synthesizer/index.html"
+    },
+    "author": {
+      "name": "Gupta-02",
+      "github": "https://github.com/Gupta-02"
+    }
+  },
+  {
     "title": "Abstract Thinking Progress Tracker",
     "description": "Enhance your abstract thinking skills through targeted exercises and track your progress over time. Abstract thinking involves recognizing patterns, forming concepts, and solving problems creatively. Features include various exercise types, performance tracking, difficulty assessment, and progress visualization.",
     "tags": [
