@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Micro-SaaS Idea Validator - analyze startup ideas for niche clarity, competition, ICP, pricing, and launch readiness.">
-  <title>Micro-SaaS Idea Validator</title>
+  <meta name="description" content="Skill Gap Radar - upload resume, parse job requirements, and build a focused 30-day learning roadmap.">
+  <title>Skill Gap Radar</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -14,119 +14,104 @@
   <div class="noise-overlay" aria-hidden="true"></div>
   <main class="page-shell">
     <header class="hero-card reveal">
-      <p class="eyebrow">Founder Toolkit</p>
-      <h1>Micro-SaaS Idea Validator</h1>
+      <p class="eyebrow">Career Intelligence</p>
+      <h1>Skill Gap Radar</h1>
       <p class="hero-copy">
-        Convert rough startup ideas into structured validation reports:
-        niche score, competitor map, ideal customer profile, pricing angle,
-        and launch copy draft.
+        Upload your resume and target role details to map missing skills, compute a gap score,
+        and generate a practical 30-day roadmap with project recommendations.
       </p>
       <div class="hero-actions">
-        <button id="loadDemoBtn" class="btn btn-secondary" type="button">Load Example</button>
-        <button id="analyzeBtn" class="btn btn-primary" type="button">Generate Validation Report</button>
+        <button id="loadDemoBtn" class="btn btn-secondary" type="button">Load Demo Data</button>
+        <button id="analyzeBtn" class="btn btn-primary" type="button">Analyze Skill Gaps</button>
       </div>
       <div class="meta-row">
-        <span class="meta-chip">Client-side only</span>
-        <span class="meta-chip">No login required</span>
-        <span class="meta-chip">Fast offline heuristics</span>
+        <span class="meta-chip">Resume parser</span>
+        <span class="meta-chip">JD skill extractor</span>
+        <span class="meta-chip">Progress tracker</span>
       </div>
     </header>
 
     <section class="workspace-grid">
       <article class="panel form-panel reveal">
         <div class="panel-head">
-          <h2>Idea Input</h2>
-          <p>Fill key details to run analysis.</p>
+          <h2>Candidate Inputs</h2>
+          <p>Add resume text and target role details.</p>
         </div>
-        <form id="ideaForm" autocomplete="off">
+
+        <form id="skillForm" autocomplete="off">
           <div class="field-grid">
             <label class="field">
-              <span>Product Name</span>
-              <input id="ideaName" name="ideaName" type="text" maxlength="80" placeholder="e.g., Skill Gap Radar" required>
+              <span>Full Name</span>
+              <input id="candidateName" type="text" maxlength="80" placeholder="Ayaan Shaikh" required>
             </label>
             <label class="field">
-              <span>Category</span>
-              <select id="ideaCategory" name="ideaCategory" required>
-                <option value="">Select category</option>
-                <option value="Productivity">Productivity</option>
-                <option value="EdTech">EdTech</option>
-                <option value="HRTech">HRTech</option>
-                <option value="HealthTech">HealthTech</option>
-                <option value="FinTech">FinTech</option>
-                <option value="DevTools">DevTools</option>
-                <option value="Marketing">Marketing</option>
-                <option value="Community">Community</option>
-                <option value="CivicTech">CivicTech</option>
-              </select>
-            </label>
-          </div>
-
-          <label class="field">
-            <span>One-Line Idea</span>
-            <textarea id="ideaSummary" name="ideaSummary" rows="3" maxlength="300" placeholder="A platform where founders submit a startup idea and get instant validation insights." required></textarea>
-          </label>
-
-          <label class="field">
-            <span>Problem Statement</span>
-            <textarea id="problemStatement" name="problemStatement" rows="4" maxlength="450" placeholder="Builders spend months on ideas without structured market validation." required></textarea>
-          </label>
-
-          <label class="field">
-            <span>Target Users</span>
-            <input id="targetUsers" name="targetUsers" type="text" maxlength="180" placeholder="Indie hackers, students, first-time founders, hackathon teams" required>
-          </label>
-
-          <div class="field-grid">
-            <label class="field">
-              <span>Geography</span>
-              <select id="geoFocus" name="geoFocus">
-                <option value="Global">Global</option>
-                <option value="North America">North America</option>
-                <option value="Europe">Europe</option>
-                <option value="India">India</option>
-                <option value="Southeast Asia">Southeast Asia</option>
-                <option value="Africa">Africa</option>
-              </select>
-            </label>
-            <label class="field">
-              <span>Business Model</span>
-              <select id="businessModel" name="businessModel">
-                <option value="Subscription">Subscription</option>
-                <option value="Freemium">Freemium</option>
-                <option value="Pay-per-report">Pay-per-report</option>
-                <option value="Marketplace Fee">Marketplace Fee</option>
-                <option value="B2B Annual Contract">B2B Annual Contract</option>
+              <span>Experience Level</span>
+              <select id="experienceLevel">
+                <option value="Student">Student</option>
+                <option value="Fresher">Fresher</option>
+                <option value="Junior (1-2 yrs)">Junior (1-2 yrs)</option>
+                <option value="Mid (3-5 yrs)">Mid (3-5 yrs)</option>
               </select>
             </label>
           </div>
 
           <div class="field-grid">
             <label class="field">
-              <span>Price Range (USD/month)</span>
-              <input id="priceRange" name="priceRange" type="text" maxlength="40" placeholder="9-29">
+              <span>Target Role</span>
+              <select id="targetRole" required>
+                <option value="">Select role</option>
+                <option value="Frontend Developer">Frontend Developer</option>
+                <option value="Backend Developer">Backend Developer</option>
+                <option value="Full Stack Developer">Full Stack Developer</option>
+                <option value="Data Analyst">Data Analyst</option>
+                <option value="Product Manager">Product Manager</option>
+                <option value="UI/UX Designer">UI/UX Designer</option>
+                <option value="DevOps Engineer">DevOps Engineer</option>
+              </select>
             </label>
             <label class="field">
-              <span>Build Timeline</span>
-              <select id="timeline" name="timeline">
-                <option value="2-4 weeks">2-4 weeks</option>
-                <option value="1-2 months">1-2 months</option>
-                <option value="3+ months">3+ months</option>
-              </select>
+              <span>Weekly Study Hours</span>
+              <input id="weeklyHours" type="number" min="2" max="40" step="1" placeholder="10" value="10">
             </label>
           </div>
 
           <label class="field">
-            <span>Differentiation Angle</span>
-            <textarea id="differentiator" name="differentiator" rows="3" maxlength="280" placeholder="Example: combines competitor scan + ICP + launch copy in a single flow."></textarea>
+            <span>Job Description Links (one per line)</span>
+            <textarea id="jobLinks" rows="3" maxlength="500" placeholder="https://company.com/jobs/frontend-intern"></textarea>
           </label>
 
           <label class="field">
-            <span>Core Features (comma separated)</span>
-            <textarea id="coreFeatures" name="coreFeatures" rows="2" maxlength="280" placeholder="idea input form, competitor summary, ICP generator, checklist, landing-page copy"></textarea>
+            <span>Target Job Description Text</span>
+            <textarea id="jobDescription" rows="5" maxlength="2000" placeholder="Paste JD content: React, TypeScript, REST APIs, testing, communication..." required></textarea>
           </label>
+
+          <label class="field">
+            <span>Resume Text</span>
+            <textarea id="resumeText" rows="7" maxlength="3500" placeholder="Paste your resume text here including projects, skills, tools, certifications..." required></textarea>
+          </label>
+
+          <div class="field-grid">
+            <label class="field">
+              <span>Preferred Learning Mode</span>
+              <select id="learningMode">
+                <option value="Mixed">Mixed (videos + docs + projects)</option>
+                <option value="Project-first">Project-first</option>
+                <option value="Documentation-first">Documentation-first</option>
+                <option value="Video-first">Video-first</option>
+              </select>
+            </label>
+            <label class="field">
+              <span>Goal Timeline</span>
+              <select id="goalTimeline">
+                <option value="30 days">30 days</option>
+                <option value="60 days">60 days</option>
+                <option value="90 days">90 days</option>
+              </select>
+            </label>
+          </div>
 
           <div class="form-footer">
-            <p id="formHint" class="form-hint">Tip: include a clear audience and outcome for stronger scoring.</p>
+            <p id="formHint" class="form-hint">Tip: add detailed JD text for better skill extraction.</p>
             <button id="resetBtn" class="btn btn-ghost" type="reset">Reset</button>
           </div>
         </form>
@@ -134,42 +119,42 @@
 
       <article class="panel result-panel reveal">
         <div class="panel-head">
-          <h2>Validation Report</h2>
-          <p>Generated insights from your inputs.</p>
+          <h2>Skill Intelligence Report</h2>
+          <p>Gap scoring, roadmap, and recommendations.</p>
         </div>
 
         <div class="score-grid" id="scoreGrid">
           <div class="score-card">
-            <p class="score-label">Niche Clarity</p>
-            <p class="score-value" id="nicheScore">--</p>
+            <p class="score-label">Current Match</p>
+            <p class="score-value" id="matchScore">--</p>
           </div>
           <div class="score-card">
-            <p class="score-label">Market Signal</p>
-            <p class="score-value" id="marketScore">--</p>
+            <p class="score-label">Gap Severity</p>
+            <p class="score-value" id="gapScore">--</p>
           </div>
           <div class="score-card">
-            <p class="score-label">Monetization Fit</p>
-            <p class="score-value" id="monetizationScore">--</p>
+            <p class="score-label">Roadmap Fit</p>
+            <p class="score-value" id="roadmapScore">--</p>
           </div>
           <div class="score-card">
-            <p class="score-label">Launch Readiness</p>
-            <p class="score-value" id="launchScore">--</p>
+            <p class="score-label">Interview Readiness</p>
+            <p class="score-value" id="readinessScore">--</p>
           </div>
         </div>
 
-        <div class="tabs" role="tablist" aria-label="Validation report sections">
+        <div class="tabs" role="tablist" aria-label="Skill report sections">
           <button class="tab is-active" data-tab="summary" type="button">Summary</button>
-          <button class="tab" data-tab="competitors" type="button">Competitors</button>
-          <button class="tab" data-tab="icp" type="button">ICP</button>
-          <button class="tab" data-tab="pricing" type="button">Pricing + GTM</button>
-          <button class="tab" data-tab="checklist" type="button">Checklist</button>
-          <button class="tab" data-tab="copy" type="button">Landing Copy</button>
+          <button class="tab" data-tab="skills" type="button">Skill Gap</button>
+          <button class="tab" data-tab="roadmap" type="button">30-Day Plan</button>
+          <button class="tab" data-tab="projects" type="button">Projects</button>
+          <button class="tab" data-tab="progress" type="button">Progress Tracker</button>
+          <button class="tab" data-tab="next" type="button">Next Steps</button>
         </div>
 
         <div id="tabContent" class="tab-content"></div>
 
         <div class="result-actions">
-          <button id="copyReportBtn" class="btn btn-secondary" type="button">Copy Summary</button>
+          <button id="copyReportBtn" class="btn btn-secondary" type="button">Copy Report</button>
           <button id="downloadReportBtn" class="btn btn-primary" type="button">Download JSON</button>
         </div>
       </article>
@@ -179,111 +164,88 @@
   <template id="summaryTemplate">
     <section class="stack">
       <div class="insight-card">
-        <h3>Verdict</h3>
-        <p id="verdictText"></p>
+        <h3>Candidate Summary</h3>
+        <p id="candidateSummaryText"></p>
       </div>
       <div class="insight-card">
-        <h3>What Looks Strong</h3>
+        <h3>Strong Areas</h3>
         <ul id="strengthList"></ul>
       </div>
       <div class="insight-card">
-        <h3>What Needs Validation First</h3>
-        <ul id="riskList"></ul>
+        <h3>Priority Gaps</h3>
+        <ul id="priorityGapList"></ul>
       </div>
       <div class="insight-card">
-        <h3>Suggested Next Experiment</h3>
-        <p id="experimentText"></p>
+        <h3>Score Insight</h3>
+        <p id="scoreInsightText"></p>
       </div>
     </section>
   </template>
 
-  <template id="competitorTemplate">
+  <template id="skillsTemplate">
     <section class="stack">
       <div class="insight-card">
-        <h3>Competitor Landscape</h3>
-        <p id="competitionHeadline"></p>
+        <h3>Role Skill Matrix</h3>
+        <p id="roleSkillHead"></p>
       </div>
       <div class="table-wrap">
         <table>
           <thead>
             <tr>
-              <th>Name</th>
-              <th>Segment</th>
-              <th>Pricing</th>
-              <th>Threat Level</th>
+              <th>Skill</th>
+              <th>Status</th>
+              <th>Importance</th>
+              <th>Action</th>
             </tr>
           </thead>
-          <tbody id="competitorRows"></tbody>
+          <tbody id="skillRows"></tbody>
         </table>
       </div>
     </section>
   </template>
 
-  <template id="icpTemplate">
+  <template id="roadmapTemplate">
     <section class="stack">
       <div class="insight-card">
-        <h3>Ideal Customer Profile</h3>
-        <p id="icpPersona"></p>
+        <h3>Personalized 30-Day Plan</h3>
+        <p id="roadmapIntro"></p>
       </div>
-      <div class="insight-card">
-        <h3>Pain Points</h3>
-        <ul id="icpPainPoints"></ul>
-      </div>
-      <div class="insight-card">
-        <h3>Buying Triggers</h3>
-        <ul id="icpTriggers"></ul>
-      </div>
-      <div class="insight-card">
-        <h3>Channels to Reach Them</h3>
-        <ul id="icpChannels"></ul>
-      </div>
+      <div class="roadmap-grid" id="roadmapGrid"></div>
     </section>
   </template>
 
-  <template id="pricingTemplate">
+  <template id="projectsTemplate">
     <section class="stack">
       <div class="insight-card">
-        <h3>Pricing Angle</h3>
-        <p id="pricingAngle"></p>
+        <h3>Project Recommendations</h3>
+        <p id="projectIntro"></p>
       </div>
-      <div class="insight-card">
-        <h3>Go-To-Market Suggestions</h3>
-        <ul id="gtmList"></ul>
-      </div>
-      <div class="insight-card">
-        <h3>Revenue Projection (First 90 Days)</h3>
-        <p id="projectionText"></p>
-      </div>
+      <div class="project-grid" id="projectGrid"></div>
     </section>
   </template>
 
-  <template id="checklistTemplate">
+  <template id="progressTemplate">
     <section class="stack">
       <div class="insight-card">
-        <h3>Validation Checklist</h3>
-        <p id="checklistProgress"></p>
+        <h3>Daily Progress Tracker</h3>
+        <p id="progressText"></p>
+        <div class="meter">
+          <div id="progressFill" class="meter-fill"></div>
+        </div>
       </div>
-      <div id="checklistItems" class="checklist"></div>
+      <div id="progressChecklist" class="checklist"></div>
     </section>
   </template>
 
-  <template id="copyTemplate">
+  <template id="nextTemplate">
     <section class="stack">
       <div class="insight-card">
-        <h3>Landing Page Headline</h3>
-        <p id="copyHeadline"></p>
+        <h3>Interview Prep Action Plan</h3>
+        <ul id="nextStepsList"></ul>
       </div>
       <div class="insight-card">
-        <h3>Subheadline</h3>
-        <p id="copySubheadline"></p>
-      </div>
-      <div class="insight-card">
-        <h3>Feature Bullets</h3>
-        <ul id="copyFeatures"></ul>
-      </div>
-      <div class="insight-card">
-        <h3>Call To Action</h3>
-        <p id="copyCta"></p>
+        <h3>Suggested Monetization for This Tool</h3>
+        <ul id="monetizationList"></ul>
       </div>
     </section>
   </template>
