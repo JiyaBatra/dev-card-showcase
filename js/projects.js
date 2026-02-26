@@ -2069,6 +2069,19 @@ const staticProjects = [
             name: "Gupta-02",
             github: "https://github.com/Gupta-02"
         }
+    },
+    {
+        title: "Threat Response Orchestrator",
+        description:
+            "An automated threat mitigation and incident response orchestration system that coordinates security responses across multiple systems. Features real-time threat detection, automated playbook execution, incident management, security metrics tracking, and manual override capabilities for comprehensive cybersecurity operations.",
+        tags: ["HTML", "CSS", "JavaScript", "Security", "Automation", "Incident Response", "Threat Intelligence", "Cybersecurity"],
+        links: {
+            live: "./projects/threat-response-orchestrator/index.html",
+        },
+        author: {
+            name: "Gupta-02",
+            github: "https://github.com/Gupta-02"
+        }
     }
 
 ];
