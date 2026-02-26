@@ -2063,6 +2063,19 @@
       "github": "https://github.com/omkarhole"
     }
   },
+         {
+    "title": "New Colors Generator",
+    "description": "A visually captivating loading animation created entirely with SVG and JavaScript. Features smooth, dynamic animations that can be easily customized for different styles and themes, making it a perfect addition to any web project for enhanced user experience during loading times.",
+    "tags": ["HTML", "CSS", "JavaScript", "Interactive Fiction", "Case Study"],
+    "links": {
+      "live": "./projects/New-Colors-Generator/index.html"
+    },
+    "author": {
+      "name": "Omkar",
+      "github": "https://github.com/omkarhole"
+    }
+  },
+
     {
     "title": "WebGL-Fluid-Simulation",
     "description": "A WebGL-based fluid simulation that demonstrates realistic fluid dynamics in a 3D environment. Features interactive controls, real-time rendering, and a visually engaging interface built with WebGL and JavaScript.",
