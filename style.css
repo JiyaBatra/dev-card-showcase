@@ -4760,7 +4760,10 @@ h1::after {
     border-color: var(--primary-color);
     z-index: 2;
 }
-
+.card:hover> :not(:hover){
+    filter: blur(25px);
+    opacity: 1;
+}
 
 
 /* Gradient glow layer (refined) */
@@ -4777,7 +4780,7 @@ h1::after {
 }
 
 .card:hover::before {
-    opacity: 0.35;
+    opacity: 1;
 }
 
 /* Inner light response (luxury touch) */
